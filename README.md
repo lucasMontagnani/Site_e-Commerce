@@ -36,6 +36,8 @@ Site de tipo e-Commerce completo, contendo interfaces para usuários e administr
 
 ### 🛠 Tecnologias
 <UL>
-  <LI>Linguagem C</LI>
-  <LI>Recomendavel uma IDE compativel</LI>
+  <LI>Linguagens: Javascriot, PHP e SQL(MySQL)</LI>
+  <LI>Linugagem de marcação e estilo: HTML5 e CSS3 (+Bootstrap)</LI>
+  <LI>Recomendavel servidor PHP Apache (Como Xampp: https://www.apachefriends.org/pt_br/index.html)</LI>
+  <LI>Recomendavel uma IDE compativel (Como Sublime Text: https://www.sublimetext.com/3)</LI>
 </UL>
