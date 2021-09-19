@@ -1,0 +1,107 @@
+		@font-face {
+            font-family: edosz;
+            src: url('../fontes/edosz.ttf');
+		}
+		.page-header h1 {
+            font-family: "edosz" !important ;
+            font-size: 50px !important ;  
+    	}
+    	.page-header h1 {
+            color: black !important ;
+            text-decoration:none !important ;
+    	}
+    	.page-header h1:hover{
+            color: orange !important ;
+            transition: 0.2s ease-in !important ;
+    	}
+    	.col-md-12 h3 {
+            font-family: "edosz" !important ;
+            font-size: 30px !important ;  
+    	}
+    	.col-md-12 h3 {
+            color: black !important ;
+            text-decoration:none !important ;
+    	}
+    	.col-md-12 h3:hover{
+            color: orange !important ;
+            transition: 0.2s ease-in !important ;
+    	}
+    	.col-md-12 input[type="submit"],
+        .col-md-12 input[type="button"] {
+        	font-family: "edosz" !important ;
+        	font-size: 25px !important ; 
+            position: relative;
+            padding: 10px 20px 10px 20px;
+            color: black;
+            margin: 0 auto;
+            background: orange;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+        .col-md-12 input[type="submit"]:hover,
+        .col-md-12 input[type="button"]:hover
+        {
+            background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 11px;
+        }
+        #Calcular a {
+        	font-family: "edosz" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+            color: black;
+            margin: 0 auto;
+            background: orange;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+        }
+        #Calcular a:hover
+        {
+            background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 10px;
+        } 	
+        .table img{
+        	max-height: 300px;
+        	max-width: 270px; 
+        }
+
+                 .modal{
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.8);
+}
+.modal .pop_up{
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 700px;
+  padding: 40px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.modal .pop_up .close_modal{
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}

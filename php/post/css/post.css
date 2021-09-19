@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	
+}
+@font-face {
+    font-family: edosz;
+    src: url('../fontes/edosz.ttf');
+}
+
+#panel{
+	background-color: #FFF;
+	max-width: 650px;
+	width: auto; 
+	height: auto;
+	padding: 10px;
+	box-shadow: #333 0px 0px 1px;
+	border-radius: 5px;
+	padding-left: 28px;
+	overflow: hidden;
+}
+
+#panel:hover { 
+	background-color:#F5F5F5;
+	transition: 0.2s ease-in !important ; 
+}
+
+.titulo{
+	font-size: 25px;
+	font-family: "edosz" !important ;
+	color: black !important ; 
+}
+
+.titulo:hover{ 
+	color: orange !important ;
+	text-decoration: none !important ;
+	transition: 0.2s ease-in !important ;
+}
+
+.descricao{
+	font-size: 18px;
+	color: #696969;
+}
+
+.foto{
+	width: 595px;
+	height: 400px;
+	max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.foto:hover {
+
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+

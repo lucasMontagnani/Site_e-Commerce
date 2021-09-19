@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("fontes/HelveticaNeue-MediumCond.otf");
+    }
+@font-face {
+    font-family: edosz;
+    src: url('../fontes/edosz.ttf');
+    }
+#contato{
+    max-width: 100% !important;
+    height: auto !important;
+    background-image: url("../imagens/background/Dark_Gray_Background.jpg");
+    padding-top: 20px;
+    /*padding-right: 100px;*/
+}
+
+#inputs{
+float: right;
+max-width: 400px;
+height: auto;
+margin-top: 20px;
+/*margin-top: 95px;
+width: 50%;
+*/
+margin-right: 40px !important;
+}
+
+        #inputs input[type="text"] {
+            font-family: "edosz" !important ;
+            font-size: 15px !important ; 
+            position: relative;
+            width: 320px;
+            height: 38px;
+            color: black;
+            margin: 0 auto;
+            border-width: 1px 1px 3px;
+            border-radius: 3px;
+        }
+        #inputs input[type="submit"]{
+            margin-top: 10px;
+            width: 20px;
+            margin-left: 230px;
+            margin-bottom: 10px;
+            background-color: orange;
+            border-color: #ef9c00;
+        }
+        #inputs input[type="submit"]:hover{
+            background: #ef9c00;
+            transition: 0.2s ease-in !important;
+        }
+        #inputs input[type="submit"]:hover,
+        #inputs input[type="text"]:hover
+        {
+            transition: 0.2s ease-in !important ;
+            border-radius: 10px;
+        }

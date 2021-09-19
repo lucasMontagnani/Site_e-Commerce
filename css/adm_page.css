@@ -1,0 +1,68 @@
+	@font-face {
+             font-family: TheDolbak-Brush;
+             src: url('../fontes/TheDolbak-Brush.ttf');
+		}	
+		@font-face {
+            font-family: edosz;
+            src: url('../fontes/edosz.ttf');
+		}
+
+label {
+	font-family: "edosz" !important ;
+	font-size: 20px;
+	display: block !important;
+	color: black !important;
+}
+tr {
+	font-family: "edosz" !important ;
+	font-size: 15px;
+	color: black !important;
+}
+		input[type="submit"]
+		{
+        	font-family: "edosz" !important ;
+        	font-size: 15px !important ; 
+            position: relative;
+           
+            padding: 5px 20px 5px 20px;
+            color: black;
+            margin: 0 auto;
+            background: orange;
+            text-align: center;
+            font-style: normal;
+            width: auto;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+
+        }
+        input[type="submit"]:hover
+        {
+            background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 10px;
+        }
+td a{
+	color: orange;
+	text-decoration: none !important;
+}
+td a:hover{
+	color: black;
+	text-decoration: none !important;
+	transition: 0.2s ease-in !important ;
+}
+
+
+
+#workplace{
+	margin-top: 20px;
+	margin-left: -150px;
+	height: auto;
+	width: auto;
+	border:solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: orange;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}

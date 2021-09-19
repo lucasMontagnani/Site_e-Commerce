@@ -1,0 +1,664 @@
+		body {
+            margin: 0;
+		}
+		@font-face {
+             font-family: edosz;
+             src: url('../fontes/edosz.ttf');
+		}
+		@font-face {
+             font-family: TheDolbak-Brush;
+             src: url('../fontes/TheDolbak-Brush.ttf');
+		}		
+        .slideshow-container .text {
+            font-family: "edosz" !important ; 
+        }
+        .slideshow-container .text {
+            color: orange !important ;
+            text-decoration:none !important ;
+
+        }
+/*-- - -Welcome Image - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+.backimagem{
+	background-image: url("../imagens/pictures/DSCN0202.JPG");
+	filter:blur(5px);
+	width: 100%;
+	height: 700px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% /*1350px 700px*/;
+	display:inline-flex;
+}
+
+#stamp{
+	margin-left: 35%;
+	margin-top: -40%;
+	position: absolute;
+	display: inline-flex;
+	-moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+
+}
+
+#hello:hover #stamp{
+	-moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#down{
+	margin-bottom: -610px;
+	margin-left: 50%;
+	margin-right: 50%;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	position:absolute;
+}
+
+	.goto-down img{
+		margin-top: -10%;
+	}
+/*-- - -Exibição dos tipos de produtos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+#boxes{
+	background-image: url("../imagens/background/Dark_Gray_Background.jpg");
+	height: auto;
+	width: 100%;
+	text-decoration: none !important;
+}
+	.ret{
+    height: 500px;
+    width: 420px;
+    border-radius: 10px !important;
+    margin-top: 51px;
+    display: inline-block;
+    margin-left: 0px !important;
+    box-shadow: 1px 1px #ff6600, 2px 2px #ff6600, 3px 3px #ff6600;
+    overflow: hidden !important;
+    text-decoration: none !important;
+
+	}
+
+	#ret1{
+		text-decoration:none !important;
+
+	}
+
+	#boxes .img{
+    margin-top: 0px;
+    border: none !important;
+    height: 390px;
+    width: 420px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none !important;
+
+	}
+
+	#boxes img{
+		border:none;
+
+	}
+
+	#bot{
+		height: 80px;
+		width: 100%;
+		margin-left: 0;
+		text-decoration:none !important;
+
+	}
+	#bot h2{
+            font-family: "edosz" !important ;
+            text-decoration:none !important ;
+        }
+        #bot h2{
+            color: orange !important ;
+            text-decoration:none !important ;
+        }
+        #bot h2:hover{
+            color: black !important ;
+            transition: 0.2s ease-in !important ;
+            text-decoration:none !important ;
+        }
+
+	#ht{
+		font-size: 80px;
+		color: white;
+		margin-top: 40px;
+		text-decoration:none !important;
+	}
+
+	.ret h3{
+    font-size: 35px;
+    position: absolute;
+    margin-left: -25px;
+    padding-top: 390px;
+    text-decoration: none !important;
+
+	}
+		
+        .ret h3 {
+            font-family: "edosz" !important ;
+            color: orange !important ;
+            text-decoration:none !important ;
+            text-decoration:none !important;
+		overflow: hidden !important;
+
+        }
+        .ret h3:hover{
+            color: black !important ;
+            transition: 0.2s ease-in !important ;
+            text-decoration:none !important;
+        }	
+/*text*/
+		.text {
+		display: none;
+		}
+
+
+        .textb{
+        	margin-top: 10px;
+        	margin-left: 80px !important;
+        	text-decoration:none !important;
+        }
+
+     a{
+		text-decoration:none !important;
+		}
+	a:hover{
+		text-decoration:none !important;
+		}
+
+/*-- - Artigos- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+#artigo1{
+	background-image: url(../imagens/pictures/DSCN0222.JPG);
+	background-size: 100%;	
+	height: 680px;
+	z-index: 50;
+
+}
+	
+
+	#artigo1 #img{
+		width: 50%;
+		height: 680px;
+		opacity: 0.6;
+		background-image: url(../imagens/background/Dark_Gray_Background.jpg);
+		z-index: 100;
+		position: absolute;
+		background-repeat: no-repeat !important;
+	}
+
+	@media only screen and (max-width: 1000px){
+		#artigo1{
+			background-size: 1200px auto;
+			width: auto;
+			height: 680px;
+			background-repeat: no-repeat;
+		}
+			#artigo1 h2{
+		opacity: 1 !important;
+		z-index: 9000 !important;
+		font-size: 50px !important;
+	}
+		#artigo1 #text{
+		text-align: center !important;
+		color: white;
+		opacity: 1  !important;
+		position: absolute;
+		margin-top: 70px;
+
+	}
+		#artigo1 p{
+		z-index: 9000 !important;
+		font-size: 18px !important;
+	}
+	}
+
+	#artigo1 #text{
+		padding-left: 10px;
+		color: white;
+		opacity: 1  !important;
+		position: absolute;
+		z-index: 9000 !important;
+		width: 45%;
+		margin-top: 70px;
+
+	}
+        #artigo1 p {
+            font-family: "edosz" !important ;
+        }
+        #artigo1 p {
+            color: white !important ;
+            text-decoration:none !important ;
+        }
+        #artigo1 h2 {
+            font-family: "edosz" !important ;
+        }
+        #artigo1 h2 {
+            color: orange !important ;
+            text-decoration:none !important ;
+        }
+        #artigo1 h2:hover{
+            color: black !important ;
+            transition: 0.2s ease-in !important ;
+        }
+	#artigo1 h2{
+		opacity: 1 !important;
+		z-index: 9000 !important;
+		font-size: 60px;
+	}
+
+	#artigo1 p{
+		z-index: 9000 !important;
+		font-size: 23px;
+		text-align: center;
+	}
+
+/*-- - Personalize - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --*/
+#perso{
+	background: white;
+	background-size: 100%;	
+	height: 580px;
+	z-index: 50;
+				border-bottom: 5px solid #ef9c00;
+
+}
+	
+
+	#perso #img2{
+		padding-right: 35px;
+		width: 50%;
+		height: 580px;
+		opacity: 0.7;
+		background-image: url(../imagens/background/perso_orange4.png);
+		z-index: 100;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	#perso #text2{
+		margin-left: 100px ;
+		color: white;
+		opacity: 1  !important;
+		position: absolute;
+		z-index: 9000 !important;
+		width: 400px;
+		margin-top: 70px;
+	}
+
+	#perso h2{
+		color: white ;
+		opacity: 1 !important;
+		z-index: 9000 !important;
+		font-size: 60px;
+	}
+
+	#perso p{
+		color: white !important;
+		z-index: 9000 !important;
+		font-size: 23px;
+	}
+/*-- - Dentado - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --*/
+	#dentada{
+		height: 100px;
+		background-image: url(../imagens/background/dentado.png);
+		z-index: 200;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+		#dentado2{
+		height: 100px;
+		background-image: url(../imagens/background/dentado2.png);
+		z-index: 200;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		}
+/*-- - Images - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+#img_section{
+	height: 793px;
+}
+
+#img_2{
+	height: 200px;
+	width: 100%;
+}
+
+#img_section #img_2 #img1{
+	width: 50%;
+	float: left;
+	height: 495px;
+}
+
+#img_section #img_2 #img2{
+	width: 50%;
+	float: right;
+	height: 495px;
+}
+
+#img_3{
+	height: 1200px;
+	width: 100%;
+}
+
+#img_section #img3{
+	width: 33.3%;
+	float: left;
+	height: 300px;
+}
+
+#img_section #img4{
+	width: 33.4%;
+	float: left;
+	height: 300px;
+}
+
+#img_section #img5{
+	width: 33.3%;
+	float: left;
+	height: 300px;
+}
+/*-- - Zig-Zag Section - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - */
+#zz{
+	width: 80%;
+	height: 462px;
+	margin-bottom: 98px;
+	/*border:solid;
+	border-width: 1px;*/
+	position: relative;
+	padding-left: 160px;
+	padding-top: 80px;
+}
+
+#z1{
+	width: 1025px;
+	height: 320px;
+	position: relative;
+	/*border:solid;
+	border-width: 1px;*/
+	margin-top: -180px;
+
+}
+
+#z2{
+	width: 1025px;
+	height: 320px;
+	/*margin-top: 0px;*/
+	margin-top: -80px;
+	margin-left: -2px;
+	position: relative;
+	/*border:solid;
+	border-width: 1px;*/
+}
+
+
+#z1 #z1-1{
+	height: 320px;
+	width: 50%;
+	margin-top: -100px;
+
+
+}
+
+#z1 #z1-2{
+	height: 320px;
+	width: 50%;
+	margin-left: 511px;
+	margin-top: -400px;
+
+}
+
+
+
+#z2 #z2-1{
+	height: 320px;
+	width: 50%;
+
+}
+
+#z2 #z2-2{
+	height: 320px;
+	width: 50%;
+	margin-left: 511px;
+	margin-top: -500px;
+
+}
+
+#z1 h2{
+	margin-top: 180px;
+	margin-bottom: -180px;
+	margin-left: 130px;
+}
+
+#z2 h2{
+	margin-top: 270px;
+	margin-bottom: -180px;
+	margin-left: 110px;
+}
+
+#zz p{
+	margin-top: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*-- - To The Top - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+#top{
+	background-image: url("../imagens/icons/top-black2.png");
+	height: 200px;
+	width: 200px;
+	margin-bottom: -636px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+
+
+}
+
+#top:hover{
+ 	background-image: url("../imagens/icons/top-orange5.png");
+ 	margin-bottom: -636px;
+ 	height: 200px;
+
+}*/
+
+/*-- - Produtos em divisão diagonal - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+		#diagonal{
+			/*border: solid;
+			border-width: 1px;*/
+			height: 400px;
+			width: 96%;
+			padding-left: 45px;
+			padding-bottom: 50px;
+			padding-top: 500px;
+		}
+
+		#d1{
+			border: solid;
+			border-width: 1px;
+			height: 400px;
+			width: 292px;
+			-webkit-transform: skew(-15deg); /* Chrome, Opera */
+		    -ms-transform: skew(-15deg); /* IE */
+		    transform: skew(-15deg); /* Padrão */
+		    display: inline-block;
+		    background-image: url(../imagens/imgs_essenciais/1c7364a05d.jpg);
+		    background-repeat: no-repeat, repeat;
+		    background-size: 315px 400px;
+		    border-color: orange;
+
+		}
+		#d2{
+			border: solid;
+			border-width: 1px;
+			height: 400px;
+			width: 292px;
+			-webkit-transform: skew(-15deg); /* Chrome, Opera */
+		    -ms-transform: skew(-15deg); /* IE */
+		    transform: skew(-15deg); /* Padrão */
+		    display: inline-block;
+		    background-image: url(../imagens/imgs_essenciais/camiseta-anime.jpg);
+		    background-repeat: no-repeat, repeat;
+		    background-size: 315px 400px;
+		    border-color: orange;
+
+		}
+		#d3{
+			border: solid;
+			border-width: 1px;
+			height: 400px;
+			width: 292px;
+			-webkit-transform: skew(-15deg); /* Chrome, Opera */
+		    -ms-transform: skew(-15deg); /* IE */
+		    transform: skew(-15deg); /* Padrão */
+		    display: inline-block;
+		    background-image: url(../imagens/imgs_essenciais/casaco.jpg);
+		    background-repeat: no-repeat, repeat;
+		    background-size: 315px 400px;
+		    border-color: orange;
+
+		}
+		#d4{
+			border: solid;
+			border-width: 1px;
+			height: 400px;
+			width: 292px;
+			-webkit-transform: skew(-15deg); /* Chrome, Opera */
+		    -ms-transform: skew(-15deg); /* IE */
+		    transform: skew(-15deg); /* Padrão */
+		    display: inline-block;
+		    background-image: url(../imagens/imgs_essenciais/garrafa.jpg);
+		    background-repeat: no-repeat, repeat;
+		    background-size: 315px 400px;
+		    border-color: orange;
+
+		}
+
+/*-- - Ultimas Noticias - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --*/
+
+	#noticias {
+	background-color: #FF7A06;
+	background-size: 100%;	
+	height: 600px;
+	z-index: 60;
+
+	}
+
+	#noticias #leftwall {
+	background-image: url(../imagens/background/leftwall2.png);
+	width:200px ;
+	height: 600px;
+	background-size: 75.2%;
+	background-repeat: no-repeat;
+	float: left;	
+	z-index: 500;
+	display: inline-block;
+	padding-left: 20px;
+	position: absolute;
+	}
+
+		#noticias h2{
+		color: white ;
+		opacity: 1 ;
+		z-index: 9000 ;
+		font-size: 50px;
+		padding-top: 15px;
+		margin-bottom: -0px;
+	}
+
+	#noticias #rightwall {
+	background-image: url(../imagens/background/rightwall2.png);
+	width:200px;
+	height: 600px;
+	background-size: 75.2%;
+	background-repeat: no-repeat;
+	float: right;	
+	z-index: 1000;
+	right: 0;	
+	margin-right: -48px;
+	padding-right: 20px;
+	position: absolute;
+
+	}
+
+	 #noticias #caixa{
+			width:800px;
+			height:400px;
+			background-color:gray;
+			border-color: black;
+			margin-left: auto;
+ 		  	margin-right: auto;
+ 		  	margin-top: 20px;
+			border-width: 5px;
+			border-style: solid;
+		}
+
+		.container-fluid {
+			padding: 0!important;
+		}
+		.row {
+			margin: 0!important;
+		}
+
+/*-- - @media - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --*/
+1326
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1326.98px) { 
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1111.98px) { 
+
+}
+
+
+
+#destaque{
+    max-width: 100% !important;
+    height: 720px !important;
+    background-image: url("../imagens/background/Dark_Gray_Background.jpg");
+    padding-top: 20px;
+    /*padding-right: 100px;*/
+}
+
+#destaque h2{
+	font-family: "edosz" !important ;
+    text-decoration:none !important ;
+    color: orange !important;
+    font-size: 80px;
+}
+
+#destaque h2:hover{
+	color: black !important ;
+    transition: 0.2s ease-in !important ;
+    text-decoration:none !important ;
+}
+
+#destaque img{
+	-moz-transition: all 0.3s;
+    		-webkit-transition: all 0.3s;
+    		transition: all 0.3s;
+    		opacity: 0.6;
+    		filter: alpha(opacity=60);
+}
+
+#destaque img:hover{
+	-moz-transform: scale(1.1);
+    		-webkit-transform: scale(1.1);
+    		transform: scale(1.1);
+    		opacity: 1.0;
+    		filter: alpha(opacity=100);
+}

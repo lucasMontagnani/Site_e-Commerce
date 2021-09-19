@@ -1,0 +1,295 @@
+body  {
+		margin: 0;
+		padding: 0;
+		background-image: url(../imagens/fotosresident/back_login.jpg);
+		/*background-color: black;*/
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+			}
+		@font-face {
+             font-family: edosz;
+             src: url('../fontes/edosz.ttf');
+		}
+		@font-face {
+             font-family: TheDolbak-Brush;
+             src: url('../fontes/TheDolbak-Brush.ttf');
+		}
+        .box, #estado, label, h3, h2 {
+            font-family: "edosz" !important ; 
+        }
+        .box, #estado, label, h3, h2{
+            color: orange !important ;
+            text-decoration:none !important ;
+        }
+        .box h2 {
+        	font-size: 30px;
+        }
+        #s {
+        	padding-left: 70px;
+        }
+        .box input[type="submit"],
+        .box input[type="button"] {
+        	font-family: "edosz" !important ;
+        	font-size: 15px !important ; 
+            position: relative;
+            padding: 10px 20px 10px 20px;
+            color: black;
+            margin: 0 auto;
+            background: orange;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+        .box input[type="submit"]:hover,
+        .box input[type="button"]:hover
+        {
+            background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 10px;
+        }			
+
+
+
+		.user {
+			padding-top: 0px;
+			float: right;
+			padding-right: 10px;
+		}
+		.user img{
+			padding-top: 1px;
+
+		}
+		.linha-vertical {
+			height: 12px;
+		  	border-left: 1px solid;
+		  	display: inline-block;
+ 		 	padding-bottom: 1px;
+ 			color: white;
+		}
+  		.box{
+			max-width: 1010px;
+			height:820px;
+			background-color:#000000;
+			border-radius: 30px;
+			margin-left: auto;
+ 		  	 margin-right: auto;
+		    margin-top: block;
+ 		  	margin-top: 4%;
+		    box-shadow: 0px 0px 100px 10px #000000;
+			font-family: /*Adventure*/;
+			margin-bottom: 54px;
+		}
+
+		.cadastro {
+			margin-top: 3%;
+    		display:inline-flex;
+    		color:white;
+    		}
+
+		.cadastro h2{
+			margin-right: 50%;
+			margin-left: 50%;
+			margin-bottom: -0.1%;
+		}
+
+		.cadastro h5{
+			margin-left: 15%;
+			margin-bottom: -0.1%;
+		}
+
+		.cadastro form {
+    		padding-top: 10px;
+    		display: inline-block;
+		}
+
+		.senha{
+			padding:5px 20px;
+			display:block;
+			border:none;
+			border-bottom:1px solid #ccc;
+			width:90%;
+			background-color: white;
+		}	
+		.usuario{
+			padding:5px 20px;
+			display:block;
+			border:none;
+			border-bottom:1px solid #ccc;
+			width:90%;
+			background-color: white;}
+
+		input[type=submit]
+		{
+  		  	background-color: #ef9c00;
+    		border: none;
+    		color: white;
+    		padding: 10px 20px;
+    		text-decoration: none;		
+    		margin: 4px 2px;
+    		cursor: pointer;
+		}					
+
+		input[type=text]{
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    
+		    box-sizing: border-box;
+		    height: 35px;
+		    font-family: "TheDolbak-Brush" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+           
+            margin: 0 auto;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+		}
+		input[type=text]:hover{
+            transition: 0.2s ease-in !important ;
+            border-radius: 30px;
+        }
+
+		input[type=select], select {
+		    padding: 6px 5px;
+		    margin-top: 26px;
+		    margin-left: 15px;
+		    display: inline;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    height: 40px;
+		    font-family: "TheDolbak-Brush" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+            margin: 0 auto;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+		}
+		input[type=select], select:hover{
+            transition: 0.2s ease-in !important ;
+            border-radius: 30px;
+        }
+
+		input[type=email]{
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    
+		    box-sizing: border-box;
+		    height: 35px;
+		    font-family: "TheDolbak-Brush" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+           
+            margin: 0 auto;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+		}
+		input[type=email]:hover{
+            transition: 0.2s ease-in !important ;
+            border-radius: 30px;
+        }
+		input[type=password]{
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    
+		    box-sizing: border-box;
+		    height: 35px;
+		    font-family: "TheDolbak-Brush" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+           
+            margin: 0 auto;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+		}
+		input[type=password]:hover{
+            transition: 0.2s ease-in !important ;
+            border-radius: 30px;
+        }
+
+		.password{
+			color: black;
+		}
+
+		#s{
+			height: 100px;
+			width: 300px;
+			color: orange;
+			float: right;
+					
+			margin-top: -15px;
+			position: absolute;
+			z-index: 100;
+			margin-left: 40%;
+
+		}
+
+		#s h3{
+			margin-bottom: 4px;
+		}
+
+		#s a{
+			text-decoration: none;
+			color: orange;
+
+		}
+
+		#left{
+			float: left;
+			padding-left: 90px;
+		}
+		#right{
+			float: right;
+			padding-left: 100px;
+			padding-top: 20px;
+			width: 400px;
+		}
+
+		#cpf{
+			width: 40% ;
+			float: right;
+		}
+		#cnpj{
+			width: 54% ;
+			float: left;
+			margin-right: 10px;
+		}
+
+		#estado{
+			width: 50%;
+		}
+
+		#inscricao{
+			width: 54%;
+			float: left;
+		}
+		.log{
+			color: white;
+		}
+

@@ -1,0 +1,94 @@
+	@font-face {
+             font-family: edosz;
+             src: url('../fontes/edosz.ttf');
+    }
+
+
+	#left{
+		width: 300px;
+		float: left;
+		left: 0px;
+		height: 1000px;
+		padding-bottom: 20px;
+		position: fixed;
+		display: inline;
+	    top: 0px;
+	    background-color: black;
+	    padding-top: 100px;
+	    font-family: edosz;
+       	src: url('../fontes/edosz.ttf');
+       	text-decoration: none !important;
+
+
+	}
+	#left h2{
+		color: orange;
+		text-decoration: none !important;
+	}
+	.line a{
+		margin-left: 10px;
+		text-decoration: none !important;
+	}
+	.line{
+		/*width: 270px;*/
+		height: 45px;
+		font-size: 20px;
+		padding-top: 7px;
+		cursor: pointer;
+	    margin-left: 4px;
+	    margin-right: 3px;
+		text-decoration: none !important;
+	        border: 1px solid #ef9c00;
+            border-width: 1px 1px 1px;
+            margin-bottom: 4px;
+            border-radius: 1px;
+			color: white;
+
+	}
+	.line:hover{
+		    background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 11px;
+	}
+
+
+	/* link que ainda não foi visitado */
+	.line a:link {
+	   color: black;
+	   text-decoration: none !important;
+	}
+
+	/* link que foi visitado */
+	.line a:visited {
+	    color: white;
+	    text-decoration: none !important;
+	}
+
+	/* mouse over */
+	.line:hover {
+	    color: black;
+	    background-color: orange;
+	    text-decoration: none !important;
+
+	}
+
+	/* link selecionado */
+	.line a:active {
+	    color: orange;
+	    text-decoration: none !important;
+	}
+	.color{
+		color: orange;
+		text-decoration: none !important;
+	}
+		
+
+	
+	a:focus, a:hover {
+    /* color: #23527c; */
+    text-decoration: none !important;
+}
+
+span{
+	margin-left: 10px;
+}

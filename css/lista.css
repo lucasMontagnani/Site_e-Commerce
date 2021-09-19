@@ -1,0 +1,83 @@
+
+		#main_img{
+			height: 250px;
+		}
+		.thumbnail{
+			overflow: hidden;
+		}
+		.thumbnail:hover{
+			border-radius: 15%;
+        	transition: 0.3s ease-in !important ;
+        	box-shadow: 1px 1px #ff6600,
+                2px 2px #ff6600,
+                3px 3px #ff6600;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);			
+		}
+
+		.thumbnail img {
+    		max-width: 100%;
+    		-moz-transition: all 0.3s;
+    		-webkit-transition: all 0.3s;
+    		transition: all 0.3s;
+    		opacity: 0.5;
+    		filter: alpha(opacity=50);
+		}
+
+		.thumbnail:hover img {
+    		-moz-transform: scale(1.2);
+    		-webkit-transform: scale(1.2);
+    		transform: scale(1.2);
+    		opacity: 1.0;
+    		filter: alpha(opacity=100);
+		}
+		@font-face {
+            font-family: edosz;
+            src: url('../fontes/edosz.ttf');
+		}
+		@font-face {
+             font-family: TheDolbak-Brush;
+             src: url('../fontes/TheDolbak-Brush.ttf');
+		}		
+        .page-header {
+            font-family: "edosz" !important ; 
+        }
+        .page-header h1 a{
+            color: black !important ;
+            text-decoration:none !important ;
+        }
+        .page-header h1 a:hover{
+            color: orange !important ;
+            transition: 0.2s ease-in !important ;
+        }
+
+
+  		.caption {
+  			color: orange !important ;
+        	text-decoration: none !important ;
+        	font-size: 25px !important ;
+        	margin-top: 10px !important;
+        }
+        .caption:hover{
+        	color: black !important ;
+        	transition: 0.5s ease-in !important ;
+        }
+
+        #pb{
+        	font-family: "edosz" !important ;
+        	color: black !important ;
+        	text-decoration: none !important ;
+        	font-size: 25px !important ;
+        }
+        #pb:hover{
+        	color: orange !important ;
+        	transition: 0.2s ease-in !important ;        	
+        }
+        #po{
+        	font-family: "TheDolbak-Brush" !important ;
+        }
+
+        #po:hover{
+        	color: orange !important ;
+        	transition: 0.2s ease-in !important ;        	
+        }

@@ -1,0 +1,192 @@
+body  {
+			margin: 0;
+			padding: 0;
+	background-image: url(../imagens/fotosresident/back_login.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+			}
+			@font-face {
+             font-family: edosz;
+             src: url('../fontes/edosz.ttf');
+		}
+		@font-face {
+             font-family: TheDolbak-Brush;
+             src: url('../fontes/TheDolbak-Brush.ttf');
+		}
+        .login, #c, label, h2{
+            font-family: "edosz" !important ; 
+        }
+        .login, #c, label, h2{
+            color: orange !important ;
+            text-decoration:none !important ;
+        }
+        .login h2 {
+        	font-size: 30px;
+        }
+        .login input[type="submit"],
+        .login input[type="button"] {
+        	font-family: "edosz" !important ;
+        	font-size: 15px !important ; 
+            position: relative;
+            
+            color: black;
+            margin: 0 auto;
+            background: orange;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+
+            border-radius: 3px;
+        }
+        .login input[type="submit"]:hover,
+        .login input[type="button"]:hover
+        {
+            background: #ef9c00;
+            transition: 0.2s ease-in !important ;
+            border-radius: 10px;
+        }
+        #email, #se{
+        	font-family: "TheDolbak-Brush" !important ;
+        	font-size: 20px !important ; 
+            position: relative;
+            padding: 10px 20px 10px 20px;
+            margin: 0 auto;
+            text-align: center;
+            font-style: normal;
+            border: 1px solid #ef9c00;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        #email:hover, #se:hover{
+            transition: 0.2s ease-in !important ;
+            border-radius: 30px;
+        }      
+
+
+
+		.user {
+			padding-top: 0px;
+			float: right;
+			padding-right: 10px;
+		}
+		.user img{
+			padding-top: 1px;
+
+		}
+		.linha-vertical {
+			height: 12px;
+		  	border-left: 1px solid;
+		  	display: inline-block;
+ 		 	padding-bottom: 1px;
+ 			color: white;
+		}
+  		.box{
+  			max-width: 400px;
+			width:auto;
+			height:500px;
+			background-color:#000000;
+			border-radius: 30px;
+			margin-left: auto;
+ 		  	 margin-right: auto;
+		    margin-top: block;
+ 		  	margin-top: 6%;
+		    box-shadow: 0px 0px 100px 10px #000000;
+			font-family: /*Adventure*/;
+			margin-bottom: 54px;
+		}
+		.login {
+			display:inline-flex;
+			padding: 40px 70px;
+		}
+		.login form {
+    		padding-top: 10px;
+   			display: inline-block;
+		}
+		.cadastro {
+  			float: left;
+    		display:inline-flex;
+    		padding: 60px 96px;
+    		color:white;
+    		margin-bottom: -30px;
+		}
+		.cadastro form {
+    		padding-top: 10px;
+    		display: inline-block;
+		}
+		.traço {
+			border-left: 1px solid;
+  			display: inline-block;
+  			padding-bottom: 400px;
+  			color: #BDBDBD;
+  			margin-top :5%;
+  			margin-bottom: 5%;
+		}
+		.senha{
+			padding:5px 20px;
+			display:block;
+			border:none;
+			border-bottom:1px solid #ccc;
+			width:90%;
+			background-color: white;
+		}	
+		.usuario{
+			padding:5px 20px;
+			display:block;
+			border:none;
+			border-bottom:1px solid #ccc;
+			width:90%;
+			background-color: white;}
+
+		input[type=submit]
+		{
+  		  	background-color: #ef9c00;
+    		border: none;
+    		color: white;
+    		padding: 10px 20px;
+    		text-decoration: none;		
+    		margin: 4px 2px;
+    		cursor: pointer;
+		}
+		.password{
+			color: black;
+		}
+
+		#c{
+			color: orange;
+			padding-left: 70px;
+			padding-bottom: 30px;
+		}
+
+		#c h3{
+			margin-bottom: 4px;
+			padding-: 370px;
+		}
+
+		#c a{
+			text-decoration: none;
+			color: orange;
+		}
+
+		#s{
+			color: orange;
+			padding-left: 90px;
+		}
+
+		#s h3{
+			margin-bottom: 4px;
+		}
+
+		#s a{
+			text-decoration: none;
+			color: orange;
+		}
+
+		.log{
+			color: white;
+		}
+
+		label{
+			color: orange;
+		}
