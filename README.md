@@ -2,7 +2,7 @@
 Site de tipo e-Commerce completo, contendo interfaces para usuários e administradores, responsividade e transações bancarias.
 
 ### 💻 Sobre
-<p>Este projeto foi uma proposta para o trabalho final do curso de Programação Estruturada, onde apliquei os conhecimentos adquiridos até aquele ponto do curso em um jogo para terminal construido na linguagem C.</p>
+<p>Este projeto foi minha proposta de TCC do curso técnico de Informática para Internet. Se trata de um site do tipo e-Commerce para uma estamparia chamada Resident Stamp, a qual permitiu e ajudou a construir o site. O projeto conta com todas as características listadas abaixo em "Features", dando destaque para funcionalidades como Cadastro/Login (tanto de usuários, quanto de administradores), Carrinho de compras, Transações bancarias (as quais foram possíveis através do consumo da API do PagSeguro) e além das várias possibilidades presentes na página do ADM (que podem ser observadas nas imagens abaixo em "Página do Administrador"). Apesar de todas as tecnologias e técnicas empregadas, o projeto carece de algumas metodologias, como por exemplo, MVC e POO/SOLID, as quais pretendo já empregar em projetos futuros.</p>
 
 ### ⚙️ Features
 - [x] Menu de opções
@@ -39,7 +39,7 @@ Site de tipo e-Commerce completo, contendo interfaces para usuários e administr
 <img alt="Validação" src="/readme_images/finalizando.JPG"/>
 <h4>API PagSeguro</h4>
 <img alt="Validação" src="/readme_images/pagseguro.JPG"/>
-<h4>Pagina do Administrador</h4>
+<h4>Página do Administrador</h4>
 <img alt="Validação" src="/readme_images/atualizar_excluir.png"/>
 
 ### 🚀 Instalação/Pré-requisitos
@@ -50,5 +50,5 @@ Site de tipo e-Commerce completo, contendo interfaces para usuários e administr
   <LI>Linguagens: Javascriot, PHP e SQL(MySQL)</LI>
   <LI>Linugagem de marcação e estilo: HTML5 e CSS3 (+Bootstrap)</LI>
   <LI>Recomendavel servidor Web Apache (Como Xampp: https://www.apachefriends.org/pt_br/index.html)</LI>
-  <LI>Recomendavel uma IDE compativel (Como Sublime Text: https://www.sublimetext.com/3)</LI>
+  <LI>Recomendavel uma IDE/Editor de texto adequado (Como Sublime Text: https://www.sublimetext.com/3)</LI>
 </UL>
